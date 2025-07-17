@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en"><div class="body">
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" type="text/css" href="loading.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+    </style>
+                
+</head>
+<body>
+
+
+    <div class="main">
+   
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo" data-text="MegaQuiz">Mega Quiz </h2>
+            </div>
+     
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="tc.html">T&c</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="HELP.html">HELP</a></li>
+                    <li><a href="feedback.php">FEEDBACK</a></li>
+                   
+                    
+                </ul>
+            </div>
+            
+            
+        </div> 
+        <div class="content">
+            <h1>Play<br><span>Quiz</span><br>Learn<br><span>Quiz</span></h1><br><br><br>
+            <a href="index2.html"><button class="btn-neon">
+               
+             Free Trial<span id="span1"></span>
+                 <span id="span2"></span>
+                 <span id="span3"></span>
+                 <span id="span4"></span></button></a>
+            <p class="par">
+              
+               <div class="form">
+                    <?php if (isset($_GET['error'])) { ?>
+
+                     <p class="error"><?php echo $_GET['error']; ?></p>
+
+                    <?php } ?>
+                    <form action="login.php" method="post">  
+
+             
+               
+                
+                    <input type="text" name="uname" placeholder="User name" require>
+                   <label>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <label for="example-checkbox">
+                
+
+                    
+
+                    
+                    
+          
+               <a href="index.php">
+                <button type="submit" class="btn-neon"><span></span>
+                
+                 <span id="span1"></span>
+                 <span id="span2"></span>
+                 <span id="span3"></span>
+                 <span id="span4"></span>
+                Login</button>
+               </a>
+                       
+                        
+                     <p class="link">Don't have an account<br>
+                    <a href="sign.php">Sign up </a> Or <a href="tc.html">Forget Password</p>   
+                   
+                    </label>
+
+                </div>
+
+                
+         </div>
+                    
+         </div>
+
+     </div>
+     </form>
+</div>
+               </div>
+</body>
+</html>
+
+      
+
+      
